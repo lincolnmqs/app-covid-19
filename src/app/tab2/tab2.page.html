@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Covid-19 no Mundo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Covid-19 no Brasil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-img class="logo" src="../../assets/covid.png" style="margin-top: 15%;"></ion-img>
+
+  <ion-grid class="info">
+    <ion-row>
+      <ion-col class="confirmados">
+        <p id="dados"></p>
+        <p>Confirmados</p>
+      </ion-col>
+      <ion-col class="ativos">
+        <p id="dados"></p>
+        <p>Ativos</p>
+      </ion-col>
+      <ion-col class="mortes">
+        <p id="dados"></p>
+        <p>Mortes</p>
+      </ion-col>
+      <ion-col class="recuperados">
+        <p id="dados"></p>
+        <p>Recuperados</p>
+      </ion-col>
+      <ion-col class="atualizacao">
+        <p id="atualizacao"></p>
+        <p>Atualização</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,36 @@
+ion-title{
+  text-align: center;
+}
+ion-content {
+  text-align: center;
+  
+  .logo {
+    background: #1f1f1f;
+    padding: 5%;
+    width: 75%;
+    border-radius: 100%;
+    margin: auto;
+  }
+  
+  .info {
+    margin-top: 15%;
+    
+    #dados {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    .confirmados {
+      background-color: #694e28;
+    }
+    .mortes {
+      background-color: #692828;
+    }
+    .recuperados {
+      background-color: #3c6928;
+    }
+  }
+  
+  .atualizacao {
+    background-color: #1f1f1f;
+  }
+}

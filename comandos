@@ -1,0 +1,8 @@
+ionic serve
+ionic cordova build android --prod
+ionic generate page pages/nome
+ionic cordova run browser
+ionic cordova resources --splash
+ionic cordova resources --icon
+
+ionic cordova plugin remove cordova-plugin-qrscanner
